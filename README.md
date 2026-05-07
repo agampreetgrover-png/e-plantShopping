@@ -1,20 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# Paradise Nursery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Paradise Nursery is a React-based e-commerce web application for browsing and purchasing beautiful indoor houseplants.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Landing page with company introduction
+- Product listing page with multiple plant categories
+- Shopping cart functionality using Redux Toolkit
+- Dynamic cart item counter
+- Add to cart functionality
+- Increase and decrease item quantity
+- Delete items from shopping cart
+- Responsive and modern UI
+- Navigation between pages using React Router
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Redux Toolkit
+- React Router DOM
+- Vite
+- CSS
 
-## Expanding the ESLint configuration
+## Pages Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# paradise-nursery
->>>>>>> 30588e56295e8823081b8dfbeea4d271f494fca3
+### Landing Page
+Displays:
+- Company name
+- About section
+- Background image
+- Get Started button
+
+### Product Listing Page
+Displays:
+- Multiple plant categories
+- Plant image, price, and name
+- Add to Cart functionality
+- Dynamic cart updates
+
+### Shopping Cart Page
+Displays:
+- Total number of plants
+- Total cart cost
+- Increase/decrease quantity buttons
+- Delete item button
+- Continue shopping button
+- Checkout button
+
+## Deployment
+
+The project is deployed using GitHub Pages.
+
+## Author
+
+Agam
